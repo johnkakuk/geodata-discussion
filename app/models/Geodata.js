@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const geodataSchema = new mongoose.Schema(
     {
         name: String,
-        longitutde: Number,
+        longitude: Number,
         latitude: Number,
         weatherData: Object,
         visibility: Number,
